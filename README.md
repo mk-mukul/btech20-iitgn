@@ -1,3 +1,21 @@
+
+
+# Add skill to resume
+1. Web Developer 
+    made website for out batch for collection of different class link
+    Make mean mechanics website
+    Metis project
+
+2. Python 
+    project for data visulation
+    open cv project
+    
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
