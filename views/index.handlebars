@@ -1,0 +1,77 @@
+<header>
+    <nav>
+        <div>
+            <h1>BTech 20</h1>
+        </div>
+        <div class="time">
+            <div id="time"></div>
+            <div id="date"></div>
+        </div>
+    </nav>
+</header>
+
+<section class="body">
+    <div class="color_code">
+        <h5 class="live">Running...</h5>
+        <h5 class="leftToday">Left</h5>
+        <h5 class="today_class">Todays Class</h5>
+        <h5 class="status">Not for Today</h5>
+    </div>
+    <h2>Semester 3</h2>
+
+    <h2 class="running">No Class is Running Now :)</h2>
+
+    <div class="card-container">
+        {{#each data}}
+        <div class="hide">
+            <h3>{{this.course}}</h3>
+            {{#each this.time}}
+            <h4 class="time">{{this.time}}</h4>
+            {{#each this.section}}
+            <h5><a href={{this.link}} target="blank">{{this.section}}</a></h5>
+            {{/each}}
+            {{/each}}
+        </div>
+        {{/each}}
+    </div>
+
+    <h2 class="today">No Classes are Left Today :)</h2>
+
+    <div class="card-container">
+        {{#each data}}
+        <div class="hide2">
+            <h3>{{this.course}}</h3>
+            {{#each this.time}}
+            <h4 class="time">{{this.time}}</h4>
+            {{#each this.section}}
+            <h5><a href={{this.link}} target="blank">{{this.section}}</a></h5>
+            {{/each}}
+            {{/each}}
+        </div>
+        {{/each}}
+    </div>
+
+    <h2>All Class Timing and Link</h2>
+
+    <div class="card-container">
+        {{#each data}}
+        <div class="course status">
+            <h3>{{this.course}}</h3>
+            {{#each this.time}}
+            <h4 class="time">{{this.time}}</h4>
+            {{#each this.section}}
+            <h5><a href={{this.link}} target="blank">{{this.section}}</a></h5>
+            {{/each}}
+            {{/each}}
+        </div>
+        {{/each}}
+    </div>
+</section>
+
+<footer>
+    <div class="source">
+        <a href="https://github.com/mukul-raj/btech20-iitgn" target="blank">
+            &lt;PageSource/&gt;
+        </a>
+    </div>
+</footer>

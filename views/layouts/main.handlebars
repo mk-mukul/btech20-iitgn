@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTech 20 | IITGN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            width: 100%;
+            position: fixed;
+            background-color: #334756;
+            color: #ffffff;
+        }
+
+        nav {
+            padding: 0 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .time {
+            display: grid;
+            justify-items: center;
+            font-size: medium;
+        }
+
+        .body {
+            padding: 3.43rem 0rem;
+            display: grid;
+            justify-items: center;
+            background-color: #334756;
+            color: #ffffff;
+            font-size: 1rem;
+        }
+
+        .color_code {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: .2rem;
+        }
+
+        .color_code h5 {
+            font-weight: normal;
+            min-width: 4.5rem;
+            padding: .1rem .2rem;
+            margin: 0 .1rem .1rem;
+            border-radius: 3px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .hide2 {
+            display: none;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+        }
+
+        .course {
+            min-width: 28%;
+            border-radius: 10px;
+            margin: 1rem .5rem;
+            padding: 1rem .5rem;
+            display: grid;
+            grid-auto-rows: min-content;
+            justify-items: center;
+        }
+
+        .status {
+            background-color: #bebebe;
+            color: #334756;
+        }
+
+        .leftToday {
+            background-color: #f1d78f;
+            color: #334756;
+        }
+
+        .live {
+            color: #132C33;
+            background-color: #90EE90;
+        }
+
+        .today_class {
+            color: #132C33;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: .5rem 0;
+        }
+
+        h2 {
+            margin: 1rem 0 .3rem;
+        }
+
+        h3 {
+            margin: 0 1rem;
+        }
+
+        h4 {
+            margin: 1rem 1rem .6rem;
+        }
+
+        h5 {
+            margin: .5rem 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0073ca;
+        }
+
+        a:visited {
+            color: #4700ca;
+        }
+
+        footer {
+            padding: 1rem;
+            background-color: #33475633;
+        }
+
+        .source {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    {{{body}}}
+    <script>
+        let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        let currentDate = new Date();
+        let day = currentDate.getDay();
+        let hour = currentDate.getHours();
+        if (hour.toString().length < 2) {
+            hour = "0" + hour;
+        }
+
+        let minute = currentDate.getMinutes();
+        if (minute.toString().length < 2) {
+            minute = "0" + minute;
+        }
+
+        let second = currentDate.getSeconds();
+        if (second.toString().length < 2) {
+            second = "0" + second;
+        }
+
+        let date = currentDate.getDate();
+        if (date.toString().length < 2) {
+            date = "0" + date;
+        }
+
+        let month = currentDate.getMonth();
+
+        let year = currentDate.getFullYear();
+
+        let time = hour + ":" + minute
+
+        let courses = document.querySelectorAll(".course");
+
+        let liveClasses = document.querySelectorAll(".hide");
+
+        let todayClasses = document.querySelectorAll(".hide2");
+
+        courses.forEach((val, i) => {
+
+            val.innerText.split("\n").forEach((val, temp) => {
+
+                if (val[val.length - 3] == ":") {
+
+                    let classTimes = val.split(",");
+                    classTimes.forEach((value, ind) => {
+
+                        let classTime = value.split(" ");
+                        if (time < classTime[classTime.length - 3] && classTime.indexOf(days[day]) != -1) {
+                            document.querySelectorAll(".today")[0].innerHTML = "Today's Classes Left";
+                            todayClasses[i].setAttribute("class", "course leftToday");
+                        }
+                        if (time >= classTime[classTime.length - 3] && time < classTime[classTime.length - 1] && classTime.indexOf(days[day]) != -1) {
+                            document.querySelectorAll(".running")[0].innerHTML = "Classes Running..."
+                            liveClasses[i].setAttribute("class", "course live");
+                        }
+                        if (classTime.indexOf(days[day]) != -1) {
+                            courses[i].setAttribute("class", "course today_class");
+                        }
+                    })
+                }
+            })
+        })
+
+        setInterval(() => {
+
+            currentDate = new Date();
+            day = currentDate.getDay();
+            hour = currentDate.getHours();
+            if (hour.toString().length < 2) {
+                hour = "0" + hour;
+            }
+
+            minute = currentDate.getMinutes();
+            if (minute.toString().length < 2) {
+                minute = "0" + minute;
+            }
+
+            second = currentDate.getSeconds();
+            if (second.toString().length < 2) {
+                second = "0" + second;
+            }
+
+            document.getElementById("time").innerText = hour + ":" + minute + ":" + second;
+            document.getElementById("date").innerText = days[day] + ", " + months[month] + " " + date;
+
+            if ((minute.toString() == "00" || minute.toString() == "30") && second.toString() == "00") {
+                window.location.reload();
+            }
+
+        }, 1000);
+
+    </script>
+</body>
+
+</html>
