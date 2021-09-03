@@ -103,8 +103,8 @@ data = [
                 time: "QUIZ: Fri - 17:30 to 18:30",
                 section: [
                     {
-                        section: "Zoom Link Passcode: 377658",
-                        link: "https://iitgn-ac-in.zoom.us/j/99827160694?pwd=cXZmTExpdVB2VEIwWHB1M05CL2EvZz09"
+                        section: "Quiz Link",
+                        link: "https://lms.iitgn.ac.in/login/index.php"
                     }
                 ]
             }
