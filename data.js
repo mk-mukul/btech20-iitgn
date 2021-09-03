@@ -114,7 +114,7 @@ data = [
         course: "ES 105 Electrical and Electronics Lab",
         time: [
             {
-                time: "PRE-LAB TEACHING: Mon - 16:00 to 18:00",
+                time: "PRE-LAB TEACHING: Thu - 16:00 to 18:00",
                 section: [
                     {
                         section: "Zoom Link",
@@ -123,7 +123,7 @@ data = [
                 ]
             },
             {
-                time: "POST-LAB DISCUSSION: Thu - 16:00 to 18:00",
+                time: "POST-LAB DISCUSSION: Mon - 16:00 to 18:00",
                 section: [
                     {
                         section: "Section: 1 Zoom Link",
