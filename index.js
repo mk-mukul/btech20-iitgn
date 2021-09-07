@@ -36,21 +36,6 @@ let count = 0;
 
 app.get("/", async (req, res) => {
 
-
-  
-  
-  // try{
-  //   const fres =  fetch("https://website-alpha-backend.herokuapp.com/link/mukul");
-  //   const fdata =  fres.json();
-  //   console.log(fdata)
-  //   console.log(data)
-  // } catch(error){
-  //   console.log("cant fetch")
-  //   console.log(error)
-  // }
-
-
-
   count += 1;
   let currentDate = new Date();
   let day_i = currentDate.getDay();
