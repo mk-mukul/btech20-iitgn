@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const trafficSchema = new mongoose.Schema({
     date: {
-        type: Date,
+        type: String,
     },
     day: {
         type: String,
@@ -15,4 +15,4 @@ const trafficSchema = new mongoose.Schema({
     }
 });
 
-mongoose.model('View', trafficSchema);
+mongoose.model('Traffic', trafficSchema);
