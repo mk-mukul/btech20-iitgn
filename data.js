@@ -114,20 +114,20 @@ const data = [
         "course": "ES 105 Electrical and Electronics Lab",
         "time": [
             {
-                "time": "PRE-LAB TEACHING: Thu - 16:00 to 18:00",
+                "time": "PRE-LAB TEACHING: Mon - 16:00 to 18:00",
                 "section": [
                     {
                         "section": "Zoom Link",
-                        "link": "https://iitgn-ac-in.zoom.us/j/3383165934?pwd=RlgxYWQzbFc1RWtNRlpQYW45OWtXdz09"
+                        "link": "https://iitgn-ac-in.zoom.us/j/98822883433"
                     }
                 ]
             },
             {
-                "time": "POST-LAB DISCUSSION: Mon - 16:00 to 18:00",
+                "time": "POST-LAB DISCUSSION: Thu - 16:00 to 18:00",
                 "section": [
                     {
                         "section": "Section: 1 Zoom Link",
-                        "link": "https://iitgn-ac-in.zoom.us/j/3383165934?pwd=RlgxYWQzbFc1RWtNRlpQYW45OWtXdz09"
+                        "link": "https://iitgn-ac-in.zoom.us/j/98822883433"
                     },
                     {
                         "section": "Section: 2 Meet Link",
@@ -262,7 +262,7 @@ const data = [
         "course": "ES 242 Data Structures and Algorithms - I (CS)",
         "time": [
             {
-                "time": "LECTURE: Tue Wed - 18:00 to 19:00",
+                "time": "LECTURE: Tue - 17:30 to 18:30, Wed - 18:00 to 19:00",
                 "section": [
                     {
                         "section": "Zoom Link Passcode: 065872",
