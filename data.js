@@ -267,7 +267,7 @@ const data = [
     course: "ES 242 Data Structures and Algorithms - I (CS)",
     time: [
       {
-        time: "LECTURE: Mon, Tue - 17:30 to 18:30",
+        time: "LECTURE: Mon Tue - 17:30 to 18:30",
         section: [
           {
             section: "Zoom Link Passcode: 065872",
