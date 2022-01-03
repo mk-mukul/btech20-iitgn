@@ -6,7 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import { Btech20 } from "./containers/btech20/Btech20";
-import { Home } from "./containers/mukul/Home";
+// import { Home } from "./containers/mukul/Home";
 
 export const App = () => {
   let querry = window.location.search.split("?").slice(1, 2).join();

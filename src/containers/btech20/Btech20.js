@@ -74,6 +74,12 @@ export const Btech20 = (props) => {
                     </div>
                 </section>
             </div>
+            <footer>
+                <div class="source">
+                    <a href="https://github.com/mukul-raj/btech20-iitgn" target="blank">{"<PageSource/>"}
+                    </a>
+                </div>
+            </footer>
         </>
     );
 };

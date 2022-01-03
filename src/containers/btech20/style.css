@@ -127,12 +127,23 @@
     color: #4700ca;
 }
 
-#link-page footer {
+/* #link-page footer {
     padding: 1rem;
     background-color: #33475633;
 }
 
 #link-page .source {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+footer {
+    padding: 1rem;
+    background-color: #33475633;
+}
+.source {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
