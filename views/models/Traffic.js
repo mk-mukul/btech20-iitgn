@@ -15,4 +15,4 @@ const trafficSchema = new mongoose.Schema({
     }
 });
 
-mongoose.model('Traffic', trafficSchema);
+mongoose.model('TrafficSem4', trafficSchema);

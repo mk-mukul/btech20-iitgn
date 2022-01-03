@@ -4,7 +4,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const data = require("./data");
 const mongoose = require("mongoose");
-const Traffic = mongoose.model("Traffic");
+const Traffic = mongoose.model("TrafficSem4");
 
 const app = express();
 
@@ -47,6 +47,9 @@ let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let count = 0;
 
 app.get("/", async (req, res) => {
+  res.render("index", { data });
+});
+app.get("/sem4", async (req, res) => {
 
   count += 1;
   let currentDate = new Date();
@@ -77,7 +80,7 @@ app.get("/", async (req, res) => {
   try {
     const traffic = new Traffic({ date, day, time, count });
     await traffic.save();
-    res.render("index", { data });
+    res.send({ status: "OK" });
   } catch (err) {
     return res.status(422).send(err.message);
   }
