@@ -1,3 +1,3 @@
 # btech20-iitgn
 
-Hosted on https://btech20-iitgn.herokuapp.com/
+Hosted on https://mukul-raj.github.io/btech20-iitgn/
