@@ -1,10 +1,31 @@
-
+import React, { useEffect } from "react";
 import { data } from "./data";
 import "./style.css"
 import "./script"
 
-export const Btech20 = (props) => {
-    // const data = data;
+const URL = "https://btech20-iitgn.herokuapp.com/sem4";
+
+export const Btech20 = () => {
+
+    useEffect(() => {
+        let unMounted = false;
+        if (!unMounted) {
+            const fun = async ()=>{
+                try {
+                    const res = await fetch(URL);
+                    const data = await res.json();
+                    console.log(data);
+                } catch (err) {
+                    console.log(err);
+                }
+            }
+            fun();
+        }
+        return () => {
+          unMounted = true;
+        };
+      }, []);
+
     return (
         <>
             <div id="link-page">
@@ -75,7 +96,7 @@ export const Btech20 = (props) => {
                 </section>
             </div>
             <footer>
-                <div class="source">
+                <div className="source">
                     <a href="https://github.com/mukul-raj/btech20-iitgn" target="blank">{"<PageSource/>"}
                     </a>
                 </div>
