@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  // Redirect,
+} from "react-router-dom";
+import { Btech20 } from "./containers/btech20/Btech20";
+import { Home } from "./containers/mukul/Home";
 
-function App() {
+export const App = () => {
+  let querry = window.location.search.split("?").slice(1, 2).join();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Mukul
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        {querry ? <Redirect to={process.env.PUBLIC_URL + querry} /> : <></>}
+        <Switch>
+          <Route
+            exact
+            path={process.env.PUBLIC_URL+"/"}
+            component={Home}
+          />
+          <Route
+            exact
+            path={process.env.PUBLIC_URL + "/btech20"}
+            component={Btech20}
+          />
+        </Switch>
+      </Router>
+    </>
   );
-}
+};
 
 export default App;

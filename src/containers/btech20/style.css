@@ -1,0 +1,140 @@
+#link-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #28193f;
+}
+
+#link-page header {
+    width: 100%;
+    position: fixed;
+    background-color: #1a112a;
+    color: #ffffff;
+}
+
+#link-page nav {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#link-page .time {
+    display: grid;
+    justify-items: center;
+    font-size: medium;
+}
+
+#link-page .body {
+    padding: 3.43rem 0rem;
+    display: grid;
+    justify-items: center;
+    /* background-color: #4C4C6D; */
+    color: #ffffff;
+    min-height: calc(100vh - 2*3.43rem);
+    font-size: 1rem;
+}
+
+#link-page .color_code {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 0rem;
+}
+
+#link-page .color_code h5 {
+    font-weight: normal;
+    min-width: 4.5rem;
+    padding: .1rem .2rem;
+    margin: 0 .1rem .1rem;
+    border-radius: 3px;
+}
+
+#link-page .hide {
+    display: none;
+}
+
+#link-page .hide2 {
+    display: none;
+}
+
+#link-page .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#link-page .course {
+    min-width: 28%;
+    border-radius: 10px;
+    margin: .5rem;
+    padding: .5rem;
+    display: grid;
+    grid-auto-rows: min-content;
+    justify-items: center;
+}
+
+#link-page .status {
+    background-color: #bebebe;
+    color: #334756;
+}
+
+#link-page .leftToday {
+    background-color: #f1d78f;
+    color: #334756;
+}
+
+#link-page .live {
+    color: #132C33;
+    background-color: #90EE90;
+}
+
+#link-page .today_class {
+    color: #132C33;
+    background-color: #ffffff;
+}
+
+#link-page h1 {
+    font-size: 2rem;
+    margin: .5rem 0;
+}
+
+#link-page h2 {
+    margin: 0.4rem 0 0rem;
+}
+
+#link-page h3 {
+    /* margin: 0 0.5rem; */
+}
+
+#link-page h4 {
+    margin: 0.4rem 1rem .1rem;
+}
+
+#link-page h5 {
+    margin: .2rem .6rem;
+}
+
+#link-page a {
+    text-decoration: none;
+    color: #0073ca;
+}
+
+#link-page a:visited {
+    color: #4700ca;
+}
+
+#link-page footer {
+    padding: 1rem;
+    background-color: #33475633;
+}
+
+#link-page .source {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
