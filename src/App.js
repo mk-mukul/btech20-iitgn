@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  // Redirect,
+  Redirect,
 } from "react-router-dom";
 import { Btech20 } from "./containers/btech20/Btech20";
 import { Home } from "./containers/mukul/Home";
@@ -18,12 +18,7 @@ export const App = () => {
         <Switch>
           <Route
             exact
-            path={process.env.PUBLIC_URL+"/"}
-            component={Home}
-          />
-          <Route
-            exact
-            path={process.env.PUBLIC_URL + "/btech20"}
+            path={process.env.PUBLIC_URL + "/"}
             component={Btech20}
           />
         </Switch>
