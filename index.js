@@ -1,12 +1,15 @@
 require("dotenv").config();
 require("./views/models/Traffic");
 const express = require("express");
+const cors = require("cors");
 const exphbs = require("express-handlebars");
 const data = require("./data");
 const mongoose = require("mongoose");
 const Traffic = mongoose.model("TrafficSem4");
 
 const app = express();
+
+app.use(cors());
 
 const port = process.env.PORT || 3000;
 
