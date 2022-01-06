@@ -86,7 +86,7 @@ export const data = [
                       "link": "https://iitgn-ac-in.zoom.us/j/96526389474?pwd=bUNtSTZRajRjL0F5QXQxN0M1TGVnUT09"
                   },
                   {
-                      "section": "Section 2 (20110081-20110166): 1/102 Zoom Link",
+                      "section": "Section 2 (20110081-20110166): 1/102 Zoom Link (173378)",
                       "link": "https://iitgn-ac-in.zoom.us/j/99331781507?pwd=SGY0eGRzS29qM21Ia2Q5VnI4eUVvUT09"
                   },
                   {
@@ -191,8 +191,8 @@ export const data = [
                 "time": "LEC: Thu - 12:00 to 13:00",
                 "section": [
                     {
-                        "section": "5/203 To be updated",
-                      //   "link": "https://iitgn-ac-in.zoom.us/j/98048384911?pwd=NzI1WktPOUF5VklBT2lFMmtOQktsdz09"
+                        "section": "5/203 Meet Link",
+                        "link": "https://meet.google.com/bvn-nuqp-eas"
                     }
                 ]
             },
