@@ -113,11 +113,11 @@ export const data = [
                 "time": "LEC: Mon Thu - 11:00 to 12:00, Wed - 12:00 to 13:00",
                 "section": [
                   {
-                      "section": "Section 1 (20110001-20110130): 1/101 to be updated",
-                      // "link": "https://iitgn-ac-in.zoom.us/j/96526389474?pwd=bUNtSTZRajRjL0F5QXQxN0M1TGVnUT09"
+                      "section": "Group 1 (20110001-20110130): 1/101 Zoom Link",
+                      "link": "https://iitgn-ac-in.zoom.us/j/95189346861?pwd=UGp0N1BDV0RSL2VmZCt1aDNONUlnUT09"
                   },
                   {
-                      "section": "Section 2 (20110131-20110244): 1/102 Zoom Link",
+                      "section": "Group 2 (20110131-20110244): 1/102 Zoom Link",
                       "link": "https://iitgn-ac-in.zoom.us/j/95536413407?pwd=dklCdDZhUTB6cDJ5K3diZTJ4YUkxdz09"
                   }
                 ]
@@ -126,20 +126,20 @@ export const data = [
                 "time": "TUT: Tue Fri - 12:00 to 13:00",
                 "section": [
                     {
-                        "section": "Section A (20110001-20110055): 3/205 to be updated",
-                        // "link": "https://lms.iitgn.ac.in/login/index.php"
+                        "section": "Section A (20110001-20110055): 3/205 Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/95189346861?pwd=UGp0N1BDV0RSL2VmZCt1aDNONUlnUT09"
                     },
                     {
-                        "section": "Section B (20110057-20110130): 3/211 to be updated",
-                        // "link": "https://lms.iitgn.ac.in/login/index.php"
+                        "section": "Section B (20110057-20110130): 3/211 Meet Link",
+                        "link": "https://meet.google.com/hbh-rmbs-gpq"
                     },
                     {
-                        "section": "Section C (20110131-20110195): 3/215 to be updated",
-                        // "link": "https://lms.iitgn.ac.in/login/index.php"
+                        "section": "Section C (20110131-20110195): 3/215 Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/95536413407?pwd=dklCdDZhUTB6cDJ5K3diZTJ4YUkxdz09"
                     },
                     {
-                        "section": "Section D (20110196-20110244): 3/216 to be updated",
-                        // "link": "https://lms.iitgn.ac.in/login/index.php"
+                        "section": "Section D (20110196-20110244): 3/216 Meet Link",
+                        "link": "https://meet.google.com/vtz-sjrr-deo"
                     }
                 ]
             }
@@ -260,8 +260,8 @@ export const data = [
                 "time": "TUT: Wed - 14:00 to 15:00",
                 "section": [
                     {
-                        "section": "3/216 To be updated",
-                        // "link": "https://meet.google.com/sai-edkz-sim"
+                        "section": "3/216 Meet Link",
+                        "link": "https://meet.google.com/sai-edkz-sim"
                     }
                 ]
             }
@@ -283,8 +283,8 @@ export const data = [
                 "time": "TUT: Thu - 11:00 to 12:00",
                 "section": [
                     {
-                        "section": "6/202 To be updated",
-                      //   "link": "https://meet.google.com/kiv-ycxo-hah"
+                        "section": "6/202 Meet Link",
+                        "link": "https://meet.google.com/nhy-ydcm-ird"
                     }
                 ]
             }
@@ -329,8 +329,17 @@ export const data = [
                 "time": "TUT: Fri - 12:00 to 13:00",
                 "section": [
                     {
-                        "section": "1/103 To be updated",
-                      //   "link": "https://iitgn-ac-in.zoom.us/j/95585754594?pwd=TlRmYlJZanNZVml4UVkyR3JRcVhCQT09"
+                        "section": "1/103 Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/94859676914"
+                    }
+                ]
+            },
+            {
+                "time": "Resources",
+                "section": [
+                    {
+                        "section": "Course Website",
+                        "link": "https://bkomarath.rbgo.in/teaching/2022/es301.html"
                     }
                 ]
             }
@@ -352,8 +361,8 @@ export const data = [
                 "time": "LAB: Mon Thu - 16:00 to 18:00, Fri - 15:30 to 18:00",
                 "section": [
                     {
-                        "section": "MSE Lab To be updated",
-                        // "link": "https://iitgn-ac-in.zoom.us/j/92662820335?pwd=Q3ZtZjk4U3JtL1JsZVV5c0pGRmhXZz09"
+                        "section": "MSE Lab Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/92662820335?pwd=Q3ZtZjk4U3JtL1JsZVV5c0pGRmhXZz09"
                     }
                 ]
             }
@@ -375,8 +384,8 @@ export const data = [
                 "time": "TUT: Wed - 15:00 to 16:00",
                 "section": [
                     {
-                        "section": "7/102 To be updated",
-                        // "link": "https://iitgn-ac-in.zoom.us/j/95204496900?pwd=aTAzQkVIWkpSSE9QUXhieWdZdG0ydz09"
+                        "section": "7/102 Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/95204496900?pwd=aTAzQkVIWkpSSE9QUXhieWdZdG0ydz09"
                     }
                 ]
             }
