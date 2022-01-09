@@ -47,31 +47,35 @@ export const data = [
             {
                 "time": "TUT: Mon - 14:00 to 16:00",
                 "section": [
-                  //   {
-                  //       "section": "Chetan Pahlajani (17110127 – 20110038) Zoom Link Passcode: 995788",
-                  //       "link": "https://iitgn-ac-in.zoom.us/j/92972276457?pwd=WlJRaWFqZkJzRENyM01seHlqUUtLQT09"
-                  //   },
-                  //   {
-                  //       "section": "Sampa Dey (20110039 – 20110077) Meet Link",
-                  //       "link": "https://meet.google.com/wfh-nozp-nev"
-                  //   },
-                  //   {
-                  //       "section": "Satyajit Pramanik (20110078 – 20110121) Zoom Link Passcode: 795185",
-                  //       "link": "https://iitgn-ac-in.zoom.us/j/95197071681?pwd=MktxeDExY1ZrdUlHMzNpZVlGU0xRZz09"
-                  //   },
-                  //   {
-                  //       "section": "Arpan Bhattacharyya (20110122 – 20110165) Zoom Link Passcode: 734727",
-                  //       "link": "https://iitgn-ac-in.zoom.us/j/91987721522?pwd=ZkN3ais5bzZFT2pyUWFNNXM4dmRLZz09"
-                  //   },
-                  //   {
-                  //       "section": "Baradhwaj Coleppa (20110166 – 20110206) Zoom Link Passcode: 106196",
-                  //       "link": "https://iitgn-ac-in.zoom.us/j/95932145896?pwd=cnNjZVIyZHFxZEVObVpjblJOS0tEQT09"
-                  //   },
-                  //   {
-                  //       "section": "Jagmohan Tyagi (20110207 – 20110245) Zoom Link",
-                  //       "link": "https://iitgn-ac-in.zoom.us/j/92890001746?pwd=RXRweHpQbkRORFhld29qNElaQ2owQT09"
-                  //   }
-                ]
+                    {
+                        "section": "Section 1a (20110001-20110036): To be updated",
+                        // "link": "https://iitgn-ac-in.zoom.us/j/93434275311?pwd=VTVWRHphQnhwV0VlRkIwbXpGSlpWUT09"
+                    },
+                    {
+                        "section": "Section 1b (20110037-20110073): Zoom Link (119522)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/94592131732?pwd=ZVZjTjlVY0w4T1RqcG9YTGQrMEtnZz09"
+                    },
+                    {
+                        "section": "Section 2a (20110074-20110114): Zoom Link (SgwZR0)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/6585989272?pwd=MlpQeE4xSlJoa1c0ME9HdWRwKzM0UT09"
+                    },
+                    {
+                        "section": "Section 2b (20110115-20110154): Zoom Link (704803)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/97990407584?pwd=ekV5bDBxMU9LOWQybm14WHhCTmk5UT09"
+                    },
+                    {
+                        "section": "Section 3a (20110155-20110185): Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/91567111317"
+                    },
+                    {
+                        "section": "Section 3b (20110186-20110216): Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/6666205461"
+                    },
+                    {
+                        "section": "Section 3c (20110216-20110245): Zoom Link (684753)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/96125719496?pwd=eWdnMjh1Mkg2aGxvOGZQUTAvZklIUT09"
+                    }
+                  ]
             }
         ]
     },
@@ -98,10 +102,10 @@ export const data = [
             {
                 "time": "TUT: Wed - 16:00 to 17:00",
                 "section": [
-                  //   {
-                  //       "section": "Zoom Link",
+                    {
+                        "section": "to be updated",
                   //       "link": "https://iitgn-ac-in.zoom.us/j/92969822084"
-                  //   }
+                    }
                 ]
             }
         ]
