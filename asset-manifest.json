@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/btech20-iitgn/static/css/main.0aac3f61.chunk.css",
-    "main.js": "/btech20-iitgn/static/js/main.01682872.chunk.js",
-    "main.js.map": "/btech20-iitgn/static/js/main.01682872.chunk.js.map",
+    "main.js": "/btech20-iitgn/static/js/main.16ed20a8.chunk.js",
+    "main.js.map": "/btech20-iitgn/static/js/main.16ed20a8.chunk.js.map",
     "runtime-main.js": "/btech20-iitgn/static/js/runtime-main.98daf422.js",
     "runtime-main.js.map": "/btech20-iitgn/static/js/runtime-main.98daf422.js.map",
     "static/js/2.70c2577b.chunk.js": "/btech20-iitgn/static/js/2.70c2577b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.98daf422.js",
     "static/js/2.70c2577b.chunk.js",
     "static/css/main.0aac3f61.chunk.css",
-    "static/js/main.01682872.chunk.js"
+    "static/js/main.16ed20a8.chunk.js"
   ]
 }
