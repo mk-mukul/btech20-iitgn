@@ -48,8 +48,8 @@ export const data = [
                 "time": "TUT: Mon - 14:00 to 16:00",
                 "section": [
                     {
-                        "section": "Section 1a (20110001-20110036): To be updated",
-                        // "link": "https://iitgn-ac-in.zoom.us/j/93434275311?pwd=VTVWRHphQnhwV0VlRkIwbXpGSlpWUT09"
+                        "section": "Section 1a (20110001-20110036): Zoom Link (911984)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/97808221266?pwd=WmFGRTNQWjF2OTlMTWZuTU9XTUZSQT09"
                     },
                     {
                         "section": "Section 1b (20110037-20110073): Zoom Link (119522)",
@@ -321,7 +321,7 @@ export const data = [
         "course": "ES 301 Data Structures and Algorithms II (CS)",
         "time": [
             {
-                "time": "LEC: Tue Thu Fri - 17:00 to 18:00",
+                "time": "LEC: Wed Thu Fri - 17:00 to 18:00",
                 "section": [
                     {
                         "section": "1/103 Zoom Link",
@@ -330,7 +330,7 @@ export const data = [
                 ]
             },
             {
-                "time": "TUT: Fri - 12:00 to 13:00",
+                "time": "TUT: Tue - 17:00 to 18:00",
                 "section": [
                     {
                         "section": "1/103 Zoom Link",
