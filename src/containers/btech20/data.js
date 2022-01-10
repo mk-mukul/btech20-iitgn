@@ -166,7 +166,7 @@ export const data = [
               ]
           },
           {
-              "time": "TUT: Wed Thu - 14:00 to 15:00",
+              "time": "TUT: Thu - 14:00 to 16:00",
               "section": [
                   {
                       "section": "Section A (20110001-20110048): 3/211 Meet Link",
