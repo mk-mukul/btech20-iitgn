@@ -103,8 +103,24 @@ export const data = [
                 "time": "TUT: Wed - 16:00 to 17:00",
                 "section": [
                     {
-                        "section": "to be updated",
-                  //       "link": "https://iitgn-ac-in.zoom.us/j/92969822084"
+                        "section": "Group 1 (20110001-20110041): Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/94011138137?pwd=bGNjTlV5ek9yQmJnb09FRDdmZUdVQT09"
+                    },
+                    {
+                        "section": "Group 2 (20110042-20110091): Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/97212593495?pwd=eHhCWXlhUlkwN2JnKys0TlF5dVJrUT09"
+                    },
+                    {
+                        "section": "Group 3 (20110092-20110138): Zoom Link (173378)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/99935986394?pwd=bGVCQVdTWkJlbXNha3BSNnROREdUQT09"
+                    },
+                    {
+                        "section": "Group 3 (20110141-20110188): Zoom Link (173378)",
+                        "link": "https://iitgn-ac-in.zoom.us/j/93772853319"
+                    },
+                    {
+                        "section": "Section 3 (20110189-20110245): Zoom Link",
+                        "link": "https://iitgn-ac-in.zoom.us/j/96288273967?pwd=TzhCc2MxQW54K0JXNVFnRlBNZnpxQT09"
                     }
                 ]
             }
@@ -135,7 +151,7 @@ export const data = [
                     },
                     {
                         "section": "Section B (20110057-20110130): 3/211 Meet Link",
-                        "link": "https://meet.google.com/hbh-rmbs-gpq"
+                        "link": "https://meet.google.com/xbx-wxzp-eag"
                     },
                     {
                         "section": "Section C (20110131-20110195): 3/215 Zoom Link",
