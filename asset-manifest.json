@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/btech20-iitgn/static/css/main.0aac3f61.chunk.css",
+    "main.css": "/btech20-iitgn/static/css/main.cddb7fa9.chunk.css",
     "main.js": "/btech20-iitgn/static/js/main.2167e3fd.chunk.js",
     "main.js.map": "/btech20-iitgn/static/js/main.2167e3fd.chunk.js.map",
     "runtime-main.js": "/btech20-iitgn/static/js/runtime-main.98daf422.js",
@@ -10,13 +10,13 @@
     "static/js/3.d53386ad.chunk.js": "/btech20-iitgn/static/js/3.d53386ad.chunk.js",
     "static/js/3.d53386ad.chunk.js.map": "/btech20-iitgn/static/js/3.d53386ad.chunk.js.map",
     "index.html": "/btech20-iitgn/index.html",
-    "static/css/main.0aac3f61.chunk.css.map": "/btech20-iitgn/static/css/main.0aac3f61.chunk.css.map",
+    "static/css/main.cddb7fa9.chunk.css.map": "/btech20-iitgn/static/css/main.cddb7fa9.chunk.css.map",
     "static/js/2.70c2577b.chunk.js.LICENSE.txt": "/btech20-iitgn/static/js/2.70c2577b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98daf422.js",
     "static/js/2.70c2577b.chunk.js",
-    "static/css/main.0aac3f61.chunk.css",
+    "static/css/main.cddb7fa9.chunk.css",
     "static/js/main.2167e3fd.chunk.js"
   ]
 }
