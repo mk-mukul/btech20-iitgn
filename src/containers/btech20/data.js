@@ -111,11 +111,11 @@ export const data = [
                         "link": "https://iitgn-ac-in.zoom.us/j/97212593495?pwd=eHhCWXlhUlkwN2JnKys0TlF5dVJrUT09"
                     },
                     {
-                        "section": "Group 3 (20110092-20110138): Zoom Link (173378)",
+                        "section": "Group 3 (20110092-20110138): Zoom Link",
                         "link": "https://iitgn-ac-in.zoom.us/j/99935986394?pwd=bGVCQVdTWkJlbXNha3BSNnROREdUQT09"
                     },
                     {
-                        "section": "Group 3 (20110141-20110188): Zoom Link (173378)",
+                        "section": "Group 3 (20110141-20110188): Zoom Link",
                         "link": "https://iitgn-ac-in.zoom.us/j/93772853319"
                     },
                     {
