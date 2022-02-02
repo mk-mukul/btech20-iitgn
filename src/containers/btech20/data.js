@@ -172,8 +172,8 @@ export const data = [
               "time": "LEC: Mon Wed Fri - 08:00 to 09:00",
               "section": [
                 {
-                    "section": "Section 1 (20110001-20110118): 6/201 Meet Link",
-                    "link": "https://meet.google.com/sgm-agst-mvb"
+                    "section": "Section 1 (20110001-20110118): 6/201 Zoom Link",
+                    "link": "https://iitgn-ac-in.zoom.us/j/94747283932?pwd=eUJXcjlhREFweENRY3Z3VTJReWRUdz09"
                 },
                 {
                     "section": "Section 2 (20110119-20110244): 7/209 Zoom Link (129235)",
