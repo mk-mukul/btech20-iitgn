@@ -189,8 +189,8 @@ export const data = [
                       "link": "https://meet.google.com/uoo-jutc-qyz"
                   },
                   {
-                      "section": "Section B (20110049-20110118): 3/215 Meet Link",
-                      "link": "https://meet.google.com/noo-vwef-vai"
+                      "section": "Section B (20110049-20110118): 3/215 Zoom Link",
+                      "link": "https://iitgn-ac-in.zoom.us/j/95751332690?pwd=czd4blpsS0hXM2xrd21FYVFPRnpTQT09"
                   },
                   {
                       "section": "Section C (20110119-20110181): 7/202 Zoom Link",
