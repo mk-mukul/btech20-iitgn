@@ -97,7 +97,7 @@ export const Btech20 = () => {
             </div>
             <footer>
                 <div className="source">
-                    <a href="https://github.com/mukul-raj/btech20-iitgn" target="blank">{"<PageSource/>"}
+                    <a href="https://github.com/mk-mukul/btech20-iitgn" target="blank">{"<PageSource/>"}
                     </a>
                 </div>
             </footer>
