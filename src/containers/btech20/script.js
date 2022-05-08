@@ -50,37 +50,36 @@ const script = () => {
   
     let todayClasses = document.querySelectorAll("#link-page .hide2");
   
-    courses.forEach((val, i) => {
-      // console.log(val)
-      val.innerText.split("\n").forEach((val, temp) => {
-        if (val[val.length - 3] === ":") {
-          let classTimes = val.split(",");
-          classTimes.forEach((value, ind) => {
-            let classTime = value.split(" ");
-            if (
-              time < classTime[classTime.length - 3] &&
-              classTime.indexOf(days[day]) !== -1
-            ) {
-              document.querySelectorAll(".today")[0].innerHTML =
-                "Today's Classes Left";
-              todayClasses[i].setAttribute("class", "course leftToday");
-            }
-            if (
-              time >= classTime[classTime.length - 3] &&
-              time < classTime[classTime.length - 1] &&
-              classTime.indexOf(days[day]) !== -1
-            ) {
-              document.querySelectorAll(".running")[0].innerHTML =
-                "Classes Running...";
-              liveClasses[i].setAttribute("class", "course live");
-            }
-            if (classTime.indexOf(days[day]) !== -1) {
-              courses[i].setAttribute("class", "course today_class");
-            }
-          });
-        }
-      });
-    });
+    // courses.forEach((val, i) => {
+    //   val.innerText.split("\n").forEach((val, temp) => {
+    //     if (val[val.length - 3] === ":") {
+    //       let classTimes = val.split(",");
+    //       classTimes.forEach((value, ind) => {
+    //         let classTime = value.split(" ");
+    //         if (
+    //           time < classTime[classTime.length - 3] &&
+    //           classTime.indexOf(days[day]) !== -1
+    //         ) {
+    //           document.querySelectorAll(".today")[0].innerHTML =
+    //             "Today's Classes Left";
+    //           todayClasses[i].setAttribute("class", "course leftToday");
+    //         }
+    //         if (
+    //           time >= classTime[classTime.length - 3] &&
+    //           time < classTime[classTime.length - 1] &&
+    //           classTime.indexOf(days[day]) !== -1
+    //         ) {
+    //           document.querySelectorAll(".running")[0].innerHTML =
+    //             "Classes Running...";
+    //           liveClasses[i].setAttribute("class", "course live");
+    //         }
+    //         if (classTime.indexOf(days[day]) !== -1) {
+    //           courses[i].setAttribute("class", "course today_class");
+    //         }
+    //       });
+    //     }
+    //   });
+    // });
   
     const timer = setInterval(() => {
       currentDate = new Date();
